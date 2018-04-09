@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <% include ../partials/head.ejs %>
+    </head>
+    <body>
+        <header>
+            <% include ../partials/nav.ejs %>
+        </header>
+        <main>
+            <p><%= cookies %></p>
+            <div class="main-wrapper">
+                <% body%>
+                <h1>Fuck, yeah!!</h1>
+                <a href="/cool">cool</a>
+                <button type="button">send</button>
+            </div>
+        </main>
+        <script src="js/index.js"></script>
+    </body>
+</html>
